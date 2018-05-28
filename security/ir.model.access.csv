@@ -1,0 +1,3 @@
+
+access_delivery_points_all,stock.delivery.points all,model_stock_delivery_points,,1,0,0,0
+access_stock_delivery_points_manager,stock.delivery.points manager,model_stock_delivery_points,stock.group_delivery_points_manager,1,1,1,1
