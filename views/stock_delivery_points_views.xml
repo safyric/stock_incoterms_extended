@@ -52,6 +52,6 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <menuitem action="action_ports_tree" id="menu_action_ports_open" parent="stock.menu_warehouse_config" sequence="6" groups="base.group_no_one"/>
+        <menuitem action="action_delivery_points_tree" id="menu_action_delivery_points_open" parent="stock.menu_warehouse_config" sequence="6" groups="base.group_no_one"/>
     </data>
 </odoo>
