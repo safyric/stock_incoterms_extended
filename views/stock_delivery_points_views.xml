@@ -38,7 +38,7 @@
             <field name="name">stock.delivery.points.search</field>
             <field name="model">stock.delivery.points</field>
             <field name="arch" type="xml">
-                <search string="ports">
+                <search string="Delivery Points">
                     <filter string="Archived" name="inactive" domain="[('active','=',False)]"/>
                 </search>
             </field>
