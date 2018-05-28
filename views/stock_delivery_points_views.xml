@@ -13,6 +13,7 @@
                 </tree>
             </field>
         </record>
+        
         <record id="stock_ports_form" model="ir.ui.view">
             <field name="name">stock.ports.form</field>
             <field name="model">stock.ports</field>
@@ -32,6 +33,7 @@
                 </form>
             </field>
         </record>
+        
         <record id="stock_ports_view_search" model="ir.ui.view">
             <field name="name">stock.ports.search</field>
             <field name="model">stock.ports</field>
@@ -41,6 +43,7 @@
                 </search>
             </field>
         </record>
+        
         <record id="action_ports_tree" model="ir.actions.act_window">
             <field name="name">Delivery Ports</field>
             <field name="res_model">stock.ports</field>
