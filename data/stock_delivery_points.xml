@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id="ports_CNSHA" model="stock.delivery_points">
+        <record id="ports_CNSHA" model="stock.delivery.points">
             <field name="code">CNSHA</field>
             <field name="name">Shanghai</field>
         </record>
         
-        <record id="ports_CNNGB" model="stock.delivery_points">
+        <record id="ports_CNNGB" model="stock.delivery.points">
             <field name="code">CNNGB</field>
             <field name="name">Ningbo</field>
         </record>
         
-        <record id="ports_CNTXG" model="stock.delivery_points">
+        <record id="ports_CNTXG" model="stock.delivery.points">
             <field name="code">CNTXG</field>
             <field name="name">Tianjin</field>
         </record>
         
-        <record id="ports_HKHKG" model="stock.delivery_points">
+        <record id="ports_HKHKG" model="stock.delivery.points">
             <field name="code">HKHKG</field>
             <field name="name">Hong Kong</field>
         </record>
