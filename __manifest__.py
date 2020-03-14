@@ -10,8 +10,8 @@
     'depends': ['stock'],
     'data': [
         'security/ir.model.access.csv',
-        'data/stock_delivery_points_data.xml',
-        'views/stock_delivery_points_views.xml',
+        'data/stock_delivery_place.xml',
+        'views/stock_delivery_views.xml',
     ],
     'installable': True,
 }
