@@ -1,18 +1,22 @@
 # -*- coding: utf-8 -*-
+
 {
-    'name': "Incoterms Extended",
-    'summary': """This module extends the Incoterms to include destination ports/place"",
-    'description': """This module extends the Incoterms to include destination ports/place""",
-    'author': "Safyric Co., Ltd.",
-    'website': "https://wwww.safyric.com",
-    'category': 'Business',
-    'version': '0.1',
-    'depends': ['stock'],
+    "name": "Incoterms Extended",
+    "summary": "Add deestination ports to incoterms",
+    "version": "12.0.1.0.0",
+    "author": "Safyric Co., Ltd."
+
+    "category": "Stock",
+    "website": "https://www.safyric.com",
+    "license": "AGPL-3",
     'data': [
         'security/ir.model.access.csv',
         'data/stock_delivery_place.xml',
-        'views/stock_delivery_view.xml',
         'views/sale_order_view.xml',
+        'views/stock_delivery_view.xml'
     ],
-    'installable': True,
+    "depends": [
+        "stock",
+    ],
+    "installable": True,
 }
