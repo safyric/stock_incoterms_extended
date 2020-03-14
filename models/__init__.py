@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-from . import stock_delivery_place
+from . import stock_incoterms_extended
