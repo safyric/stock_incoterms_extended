@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Delivery Points",
-    'summary': """Incoterms Delivery Points""",
-    'description': """This module adds list of delivery points for use with Incoterms in Sale Order""",
+    'name': "Incoterms Extended",
+    'summary': """This module extends the Incoterms to include destination ports/place"",
+    'description': """This module extends the Incoterms to include destination ports/place""",
     'author': "Safyric Co., Ltd.",
     'website': "https://wwww.safyric.com",
     'category': 'Business',
     'version': '0.1',
-    'depends': ['stock', 'product'],
+    'depends': ['stock'],
     'data': [
         'security/ir.model.access.csv',
         'data/stock_delivery_points_data.xml',
