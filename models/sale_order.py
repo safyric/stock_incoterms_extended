@@ -6,5 +6,5 @@ class SaleOrder(models.Model):
     _name = "sale.order"
     
     delivery_place = fields.Many2one(
-        'stock.delivery.place', 'Delivery Place',
+        'stock.delivery.place', Incoterms Port',
         help="Incoterms extended: delivery place")
