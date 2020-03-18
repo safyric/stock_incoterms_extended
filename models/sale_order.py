@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+
+from odoo import fields, models
+
 class SaleOrder(models.Model):
     _name = "sale.order"
 
