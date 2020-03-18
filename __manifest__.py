@@ -16,6 +16,7 @@
     ],
     "depends": [
         "stock",
+        "sale",
     ],
     "installable": True,
 }
