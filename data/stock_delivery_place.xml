@@ -11,7 +11,7 @@
             <field name="name">Ningbo</field>
         </record>
         
-        <record id="ports_CNTXG" model="stock.delivery.placce">
+        <record id="ports_CNTXG" model="stock.delivery.place">
             <field name="code">CNTXG</field>
             <field name="name">Tianjin</field>
         </record>
