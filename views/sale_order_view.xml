@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
-        <record id="sale.order.delivery.place" model="ir.ui.view">
-            <field name="name">sale.order.form</field>
-            <field name="model">sale.order</field>
-            <field name="arch" type="xml">
-                <xpath expr="//sheet//group/group/field[@name='payment_term_id']" position="after">
-                    <field name="name"/>
-                </xpath>
-            </field>
-        </record>
-    </data>
+    <record id="sale.order.delivery.place" model="ir.ui.view">
+        <field name="name">sale.order.form</field>
+        <field name="model">sale.order</field>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet//group/group/field[@name='payment_term_id']" position="after">
+                <field name="name"/>
+            </xpath>
+        </field>
+    </record>
 </odoo>
