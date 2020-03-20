@@ -8,6 +8,7 @@
                 </div>
                 <div style="width: 70%;">
                     <p class="m-0" t-field="doc.incoterm.code"/>
+                    <p class="m-0" t-field="doc.delivery_place"/>
                 </div>
             </div>
         </xpath>
