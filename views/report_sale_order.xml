@@ -4,7 +4,7 @@
         <xpath expr="//div[@id='informations']" position="inside">
             <div class="row">
                 <div style="width: 30%;">
-                    <strong>INCOTERMS:</strong>
+                    <strong>Incoterms:</strong>
                 </div>
                 <div style="width: 70%;">
                     <p class="m-0" t-field="doc.incoterm.code"/>
