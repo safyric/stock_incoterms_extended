@@ -7,7 +7,7 @@
                     <strong>Incoterms:</strong>
                 </div>
                 <div style="width: 70%;">
-                    <span class="m-0" t-field="doc.incoterm.code"/><span>&nbsp;</span>
+                    <span class="m-0" t-field="doc.incoterm.code" style="padding-right: 20px;"/>
                     <span class="m-0" t-field="doc.delivery_place"/>
                 </div>
             </div>
