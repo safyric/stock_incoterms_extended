@@ -7,7 +7,7 @@
                     <strong>INCOTERMS:</strong>
                 </div>
                 <div style="width: 70%;">
-                    <p class="m-0" t-field="doc.incoterms"/>
+                    <p class="m-0" t-field="doc.incoterms.code"/>
                 </div>
             </div>
         </xpath>
