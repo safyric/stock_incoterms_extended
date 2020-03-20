@@ -12,7 +12,7 @@
         'security/ir.model.access.csv',
         'data/stock_delivery_place.xml',
         'views/sale_order_view.xml',
-        'views/stock_delivery_view.xml'
+        'views/stock_delivery_view.xml',
         'views/report_sale_order.xml',
     ],
     "depends": [
