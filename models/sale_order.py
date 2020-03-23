@@ -8,3 +8,6 @@ class SaleOrder(models.Model):
     delivery_place = fields.Many2one(
         'stock.delivery.place', 'Incoterms Port',
         help="Incoterms port")
+    incoterm = fields.Many2one(
+        'account.incoterms', 'Incoterms',
+        help="International Commercial Terms are a series of predefined commercial terms used in international transactions.")
